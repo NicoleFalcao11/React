@@ -1,0 +1,187 @@
+#loginbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#loginbox .card-header.bg-info {
+  background-color: #f5f3ff;
+}
+
+
+/* Navbar styling */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #140B5C ;
+  box-shadow: 0 0 10px rgba(0, 0, 255, 0.7); /* Updated box-shadow  box-shadow: 0 0 10px rgba(0, 0, 255, 0.7);*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px ;
+}
+
+.navbar .title {
+  font-family: "Poppins" , sans-serif;
+  font-size: 28px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 255, 0.2); /* Updated text-shadow */
+}
+
+.navbar .nav-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar a {
+  color:white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Poppins" , sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.navbar a:hover {
+  background-color: #ebe6ff;
+  color: #000;
+}
+
+/* Dropdown styling */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f5f3ff;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 255, 0.5); /* Updated box-shadow */
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: #555;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  color: #000;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
+
+.button {
+  width: 220px;
+  height: 70px;
+  background-color: white;
+  border: none;
+  color: #555;
+  font-size: 20px;
+  font-family: "Poppins" , sans-serif;
+  text-transform: uppercase;
+  box-shadow: 5px 5px 10px white; /* Updated box-shadow */
+  margin-bottom: 10px;
+}
+
+
+.text {
+  font-size: 20px;
+  
+  padding-left: 20px;
+  padding-right:40px;
+}
+
+.cta {
+  border: none;
+  background: none;
+}
+.cta a{
+  text-decoration: none;
+}
+
+.cta span {
+  padding-bottom: 7px;
+  letter-spacing: 4px;
+  font-size: 14px;
+  padding-right: 15px;
+  text-transform: uppercase;
+}
+
+.cta svg {
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+  color: black;
+}
+
+.cta:active svg {
+  transform: scale(0.9);
+}
+
+.hover-underline-animation {
+  position: relative;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.cta:hover .hover-underline-animation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+  .jumbotron-container {
+    background-color: white;
+    padding: 50px;
+    margin-bottom: 30px;
+  }
+  
+  .jumbotron-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .jumbotron-text {
+    font-size: 18px;
+    color: black;
+  }
+
+  /* Test */
