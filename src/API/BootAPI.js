@@ -1,4 +1,4 @@
-const baseurl = "http://mybookstore.ap-south-1.elasticbeanstalk.com/";
+const baseurl = "http://mybookstore.ap-south-1.elasticbeanstalk.com";
 export default baseurl;
 
 //Razorpay
